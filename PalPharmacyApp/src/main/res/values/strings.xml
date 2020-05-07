@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pal-Pharmacy</string>
+    <string-array name="location">
+        <item>Beitjala</item>
+        <item>Bethlehem</item>
+        <item>Beitsahour</item>
+
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+
+
+</resources>

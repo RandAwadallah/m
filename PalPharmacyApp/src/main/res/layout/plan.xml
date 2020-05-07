@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    >
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="232dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:gravity="fill_vertical|fill_horizontal"
+        android:shadowColor="@color/colorGrey1"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="15"
+        android:text="We always care for your satisfaction and because of that we keep growing everyday, Therefore we will show you the products that every pharmacy has and you can choose your favourite pharmacy so you will recieve the latest products the pharmacist add. "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="222dp"
+        android:layout_height="208dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/planb">
+
+    </ImageView>
+
+
+</RelativeLayout>

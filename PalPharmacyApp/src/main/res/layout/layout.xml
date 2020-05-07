@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/search_style">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="125dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/black">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvproname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@id/imageview"
+            android:text="Pharmacy name"
+            android:textColor="#071CA6"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="28dp"
+
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            android:text="Pharmacy title"
+            android:textColor="@color/colorGrey1"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="130dp"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            android:text="Pharmacy time"
+            android:textColor="#071CA6"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="65dp"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            android:text="Pharmacy description"
+            android:textColor="@color/colorGrey1"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="130dp"
+            android:layout_toEndOf="@id/imageview"
+            android:layout_toRightOf="@id/imageview"
+            android:text="Ends in: "
+            android:textColor="@color/colorGrey1"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
