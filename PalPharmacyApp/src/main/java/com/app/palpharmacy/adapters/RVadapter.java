@@ -104,9 +104,9 @@ public class RVadapter extends RecyclerView.Adapter<RVadapter.MyViewHolder> impl
 
             if (time.compareTo(opntime) > 0 && time.compareTo(clsetime) < 0)
 
-                holder.tv_status.setText("Closed");
-            else
                 holder.tv_status.setText("Open");
+            else
+                holder.tv_status.setText("Closed");
         }
 
 
@@ -133,7 +133,8 @@ public class RVadapter extends RecyclerView.Adapter<RVadapter.MyViewHolder> impl
                     for (Pharmacy row : mData) {
                         if (row.getName().toLowerCase().contains(Key.toLowerCase())) {
                             lstfiltered.add(row);
-                        } else {
+                        } else
+                            {
                             if (row.getCity().toLowerCase().contains(Key.toLowerCase())) {
                                 lstfiltered.add(row);
                             }
@@ -144,6 +145,7 @@ public class RVadapter extends RecyclerView.Adapter<RVadapter.MyViewHolder> impl
 
 
                     }
+
 
 
                     mDatafiltered = lstfiltered;

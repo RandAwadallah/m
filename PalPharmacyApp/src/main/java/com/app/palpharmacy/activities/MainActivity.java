@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private EditText mEditTextSubject;
     private EditText mEditTextMessage;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -110,7 +111,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         pharmacy.setLatitude(jsonObject.getString("latitude"));
                         pharmacy.setInsurance(jsonObject.getString("insurance"));
                         pharmacy.setAdress(jsonObject.getString("address"));
-
                         lstPharmacy.add(pharmacy);
 
 
